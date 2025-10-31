@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s;
+    margin: 0;
+    padding: 0;
+}
+
+body.escuro {
+    background-color: #ffffff;
+}
+
+.apresentacao-pessoal {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    width: 100%;
+    height: 190px;
+    background-color: #62006e;
+}
+
+.foto-e-botao {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.minha-foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#botao-modos {
+    position: absolute;
+    width: 220px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: 15px;
+}
+
+.meu-nome {
+    font-size: 24px;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.meu-nome {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.cabecalho {
+    width: 100%;
+    height: 50px;
+    background-color: #b645d8;
+    align-content: center;
+}
+
+.subtitulo-cargo {
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+}
+
+.habilidades-e-sobre {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+.sobre-mim {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #e9a7fa;
+    align-content: center;
+}
+
+.habilidades {
+    width: 50%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #de81f5;
+    align-content: center;
+}
+
+.titulo-habilidades, .titulo-sobre-mim {
+    font-size: 22px;
+}
+
+.texto-habilidades, .texto-sobre-mim {
+    font-size: 18px;
+}
+
+.texto-habilidades {
+    padding: 5px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 90px;
+    background-color: #f36fd2;
+    color: white;
+    border-radius: 10px;
+    justify-self: center;
+    margin: 20px;
+    gap: 3px;
+    align-items: center;
+}
+
+.titulo-contato {
+    font-size: 18px;
+    margin-top: 5.3%;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: #708BAF;
+    justify-self: center;
+    align-content: center;
+}
+
+.texto-footer {
+    font-size: 20px;
+    font-weight: 1;
+    color: white;
+}
+
+.meios-de-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
